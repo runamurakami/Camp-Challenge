@@ -1,0 +1,5 @@
+#スペック
+　・OS X El Capitan(バージョン 10.11.1)
+   ・プロセッサ　1.2 GHz intel Core M
+   ・メモリ　8GB 1600 MHz DDR3
+   ・グラフィック　Intel HD Graphics 5300 1536 MB
