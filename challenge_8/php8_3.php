@@ -1,0 +1,22 @@
+<?php
+//パブリックな二つの変数
+//二つの変数の値を設定するパブリッックな関数。
+//二つの変数の中身をechoするパブリックな関数
+class Human {
+  //パブリックな二つの変数
+ public $name = '';
+ public $age = 0;
+
+ //二つの変数の値を設定するパブリックな関数。
+ public function setname($name){
+    $this->name = (string)filter_var($name);
+ }
+ public function setage($age){
+    $this->age = (string)filter_var($age);
+ }
+ //二つの変数の中身をechoするパブリックな関数
+ echo $name->getname();
+ echo $age->getage();
+}
+
+ ?>
